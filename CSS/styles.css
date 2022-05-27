@@ -440,7 +440,8 @@ img {
   padding-top: 0px;
   padding-bottom: 20px;
 }
-.footer-title {
+.footer-title,
+.subscribe-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -459,6 +460,9 @@ img {
 }
 .logo-address {
   margin-right: 70px;
+}
+.join-us {
+  margin-right: 93px;
 }
 
 /* PORTFOLIO */
@@ -605,4 +609,9 @@ img {
 }
 .close-icon {
   fill: currentColor;
+  transition: fill var(--hov-focus);
+}
+.modal-btn:hover .close-icon,
+.modal-btn:focus .close-icon {
+  fill: var(--accent-cl);
 }
