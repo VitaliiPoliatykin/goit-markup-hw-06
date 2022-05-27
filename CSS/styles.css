@@ -615,3 +615,14 @@ img {
 .modal-btn:focus .close-icon {
   fill: var(--accent-cl);
 }
+.modal-title {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
