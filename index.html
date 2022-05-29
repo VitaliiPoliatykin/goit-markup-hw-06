@@ -608,17 +608,38 @@
           </svg>
         </button>
         <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
-        <form class="modal-form" name="modal-form"></form>
+        <form class="modal-form" name="modal-form">
+          <label class="modal-form-group"
+            ><span class="user-item">Имя</span>
+            <div class="input-area">
+              <input class="modal-input" type="text" name="user-name" />
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/sprite.svg#modal-win-person"></use>
+              </svg></div
+          ></label>
+          <label class="modal-form-group"
+            ><span class="user-item">Телефон</span>
+            <div class="input-area">
+              <input class="modal-input" type="tel" name="user-phone" />
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/sprite.svg#modal-win-phone"></use>
+              </svg></div
+          ></label>
+          <label class="modal-form-group"
+            ><span class="user-item">Почта</span>
+            <div class="input-area">
+              <input class="modal-input" type="email" name="user-email" />
+              <svg class="modal-icon" width="18" height="18">
+                <use href="./images/sprite.svg#modal-win-email"></use>
+              </svg></div
+          ></label>
+          <label class="modal-form-group"
+            ><span class="user-item">Комментарий</span>
+            <textarea class="comment-area" name="comment" placeholder="Введите такст"></textarea>
+          </label>
+        </form>
         <!-- ИКОНКИ -->
-        <svg class="person-icon" width="18" height="18">
-          <use href="./images/sprite.svg#modal-win-person"></use>
-        </svg>
-        <svg class="phone-icon" width="18" height="18">
-          <use href="./images/sprite.svg#modal-win-phone"></use>
-        </svg>
-        <svg class="email-icon" width="18" height="18">
-          <use href="./images/sprite.svg#modal-win-email"></use>
-        </svg>
+
         <svg class="agreement-icon" width="18" height="18">
           <use href="./images/sprite.svg#agreement-icon"></use>
         </svg>

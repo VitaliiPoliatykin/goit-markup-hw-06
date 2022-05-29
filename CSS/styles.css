@@ -108,7 +108,6 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-cl);
-  margin-right: 93px;
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -463,11 +462,8 @@ img {
 .logo-address {
   margin-right: 70px;
 }
-.join-us {
-  margin-right: 93px;
-}
 .subscribe {
-  margin-right: auto;
+  margin-left: auto;
 }
 .subscribe-title {
   display: block;
@@ -478,7 +474,7 @@ img {
   justify-content: center;
 }
 .subscribe-email {
-  width: 385px;
+  width: 358px;
   height: 50px;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -494,7 +490,8 @@ img {
 }
 .subscribe-btn {
   background-color: var(--accent-cl);
-  width: 100%;
+  width: 200px;
+  height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 29px;
   display: flex;
@@ -630,6 +627,7 @@ img {
   top: 50%;
   left: 50%;
   transition: transform 1000ms, opacity 300ms;
+  padding: 40px;
 }
 /* початковий стан елемента перед анімацією */
 .backdrop.is-hidden .modal-wrapper {
@@ -673,6 +671,43 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
-  margin-top: 40px;
   margin-bottom: 12px;
+}
+.user-item {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #757575;
+  margin-bottom: 4px;
+}
+.modal-form-group {
+  cursor: pointer;
+  transition: fill var(--hov-focus);
+}
+.modal-form-group:hover,
+.modal-form-group:focus {
+  fill: var(--accent-cl);
+}
+.input-area {
+  position: relative;
+  margin-bottom: 10px;
+}
+.modal-input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: transparent;
+  padding: 12px 16px 12px 42px;
+  cursor: pointer;
+  transition: border-color var(--hov-focus);
+}
+.modal-input:hover,
+.modal-input:focus {
+  border-color: #2196f3;
+}
+.modal-icon {
+  position: absolute;
+  top: 14px;
+  left: 15px;
 }
