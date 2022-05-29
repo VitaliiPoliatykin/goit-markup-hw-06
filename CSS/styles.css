@@ -757,17 +757,22 @@ img {
   background-color: var(--accent-cl);
   outline: none;
 }
+.agreement-icon {
+  fill: var(--main-bg-cl);
+  opacity: 0;
+  transition: opacity var(--hov-focus);
+}
+.checkbox:checked + .custom-checkbox .agreement-icon {
+  opacity: 1;
+}
 .checkbox-txt {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.agreement-icon {
-  opacity: 0;
-}
-.checkbox:checked + .custom-checkbox ~ .agreement-icon {
-  opacity: 1;
+.agreement-link {
+  color: var(--accent-cl);
 }
 .modal-btn-submit {
   background-color: var(--accent-cl);
@@ -779,8 +784,18 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .modal-btn-submit:hover,
 .modal-btn-submit:focus {
   background-color: #188ce8;
+}
+.modal-btn-submit-txt {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-txt-cl);
 }
