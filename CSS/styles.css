@@ -26,7 +26,8 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+b {
   margin: 0;
 }
 img {
@@ -52,6 +53,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: 1px dotted red;
 }
 .section {
   padding-top: 94px;
@@ -463,6 +465,54 @@ img {
 }
 .join-us {
   margin-right: 93px;
+}
+.subscribe {
+  margin-right: auto;
+}
+.subscribe-title {
+  display: block;
+}
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-email {
+  width: 385px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  outline: transparent;
+  padding: 15px 16px;
+  margin-right: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.subscribe-btn {
+  background-color: var(--accent-cl);
+  width: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #188ce8;
+}
+.subscribe-btn-title {
+  color: var(--secondary-txt-cl);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  margin-right: 10px;
 }
 
 /* PORTFOLIO */
