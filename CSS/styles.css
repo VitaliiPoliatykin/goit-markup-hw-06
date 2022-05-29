@@ -53,7 +53,6 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px dotted red;
 }
 .section {
   padding-top: 94px;
@@ -111,6 +110,7 @@ img {
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
+  margin-right: 93px;
 }
 .header-studio {
   color: #000000;
@@ -440,6 +440,7 @@ img {
 .logo-footer {
   padding-top: 0px;
   padding-bottom: 20px;
+  margin-right: 0px;
 }
 .footer-title,
 .subscribe-title {
@@ -682,15 +683,15 @@ img {
 }
 .modal-form-group {
   cursor: pointer;
-  transition: fill var(--hov-focus);
-}
-.modal-form-group:hover,
-.modal-form-group:focus {
-  fill: var(--accent-cl);
 }
 .input-area {
   position: relative;
   margin-bottom: 10px;
+  transition: fill var(--hov-focus);
+}
+.input-area:hover,
+.input-area:focus {
+  fill: var(--accent-cl);
 }
 .modal-input {
   width: 448px;

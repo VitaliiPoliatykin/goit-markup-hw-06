@@ -609,30 +609,29 @@
         </button>
         <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
         <form class="modal-form" name="modal-form">
-          <label class="modal-form-group"
-            ><span class="user-item">Имя</span>
-            <div class="input-area">
-              <input class="modal-input" type="text" name="user-name" />
-              <svg class="modal-icon" width="18" height="18">
-                <use href="./images/sprite.svg#modal-win-person"></use>
-              </svg></div
-          ></label>
-          <label class="modal-form-group"
-            ><span class="user-item">Телефон</span>
-            <div class="input-area">
-              <input class="modal-input" type="tel" name="user-phone" />
-              <svg class="modal-icon" width="18" height="18">
-                <use href="./images/sprite.svg#modal-win-phone"></use>
-              </svg></div
-          ></label>
-          <label class="modal-form-group"
-            ><span class="user-item">Почта</span>
-            <div class="input-area">
-              <input class="modal-input" type="email" name="user-email" />
-              <svg class="modal-icon" width="18" height="18">
-                <use href="./images/sprite.svg#modal-win-email"></use>
-              </svg></div
-          ></label>
+          <label class="modal-form-group" for="name"><span class="user-item">Имя</span></label>
+          <div class="input-area">
+            <input class="modal-input" type="text" name="user-name" id="name" />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./images/sprite.svg#modal-win-person"></use>
+            </svg>
+          </div>
+          <label class="modal-form-group" for="phone"><span class="user-item">Телефон</span></label>
+          <div class="input-area">
+            <input class="modal-input" type="tel" name="user-phone" id="phone" />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./images/sprite.svg#modal-win-phone"></use>
+            </svg>
+          </div>
+
+          <label class="modal-form-group"><span class="user-item">Почта</span></label>
+          <div class="input-area">
+            <input class="modal-input" type="email" name="user-email" />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./images/sprite.svg#modal-win-email"></use>
+            </svg>
+          </div>
+
           <label class="modal-form-group"
             ><span class="user-item">Комментарий</span>
             <textarea class="comment-area" name="comment" placeholder="Введите такст"></textarea>
