@@ -674,6 +674,15 @@ img {
   color: var(--main-txt-cl);
   margin-bottom: 12px;
 }
+.modal-form-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.modal-form-group {
+  cursor: pointer;
+}
 .user-item {
   font-size: 12px;
   line-height: 1.17;
@@ -681,12 +690,8 @@ img {
   color: #757575;
   margin-bottom: 4px;
 }
-.modal-form-group {
-  cursor: pointer;
-}
 .input-area {
   position: relative;
-  margin-bottom: 10px;
   transition: fill var(--hov-focus);
 }
 .input-area:hover,
@@ -711,8 +716,9 @@ img {
 }
 .modal-icon {
   position: absolute;
-  top: 14px;
+  top: 50%;
   left: 15px;
+  transform: translateY(-50%);
 }
 .comment-area {
   resize: none;
