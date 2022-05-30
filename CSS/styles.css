@@ -682,13 +682,13 @@ img {
 }
 .modal-form-group {
   cursor: pointer;
+  margin-bottom: 4px;
 }
 .user-item {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #757575;
-  margin-bottom: 4px;
 }
 .input-area {
   position: relative;
