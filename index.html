@@ -640,32 +640,37 @@
             </div>
           </div>
 
-          <div class="modal-form-area">
-            <label class="modal-form-group"
-              ><span class="user-item">Комментарий</span>
-              <textarea class="comment-area" name="comment" placeholder="Введите такст"></textarea>
-            </label>
-            <div class="agreement-wrap">
-              <label class="modal-policy-group">
-                <input class="checkbox visually-hidden" type="checkbox" name="checkbox" />
-                <span class="custom-checkbox">
-                  <svg class="agreement-icon" width="11" height="8">
-                    <use href="./images/sprite.svg#agreement-icon"></use>
-                  </svg>
-                </span>
-                <span class="checkbox-txt"
-                  >Соглашаюсь с рассылкой и принимаю
-                  <a
-                    class="agreement-link"
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="Условия договора"
-                    >Условия договора</a
-                  ></span
-                ></label
-              >
-            </div>
+          <div class="modal-form-coment">
+            <label class="modal-form-group" for="comment"
+              ><span class="user-item">Комментарий</span></label
+            >
+            <textarea
+              class="comment-area"
+              name="comments"
+              placeholder="Введите такст"
+              id="comment"
+            ></textarea>
+          </div>
+          <div class="agreement-wrap">
+            <label class="modal-policy-group">
+              <input class="checkbox visually-hidden" type="checkbox" name="checkbox" />
+              <span class="custom-checkbox">
+                <svg class="agreement-icon" width="11" height="8">
+                  <use href="./images/sprite.svg#agreement-icon"></use>
+                </svg>
+              </span>
+              <span class="checkbox-txt"
+                >Соглашаюсь с рассылкой и принимаю
+                <a
+                  class="agreement-link"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Условия договора"
+                  >Условия договора</a
+                ></span
+              ></label
+            >
           </div>
           <button class="btn modal-btn-submit" type="submit">
             <span class="modal-btn-submit-txt">Отправить</span>

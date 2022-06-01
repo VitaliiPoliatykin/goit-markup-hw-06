@@ -683,6 +683,7 @@ img {
 .modal-form-group {
   cursor: pointer;
   margin-bottom: 4px;
+  line-height: 14px;
 }
 .user-item {
   font-size: 12px;
@@ -720,6 +721,12 @@ img {
   left: 15px;
   transform: translateY(-50%);
 }
+.modal-form-coment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
 .comment-area {
   resize: none;
   width: 100%;
@@ -734,7 +741,6 @@ img {
   color: var(--main-txt-cl);
   cursor: pointer;
   transition: border-color var(--hov-focus);
-  margin-bottom: 20px;
 }
 .agreement-wrap {
   display: flex;
